@@ -35,6 +35,7 @@ namespace ICalculadora
                 valor = Console.ReadLine();
                 opcion = Convert.ToInt32(valor);
 
+                //Este if verifica evita que while itere solo
                 if (opcion != 5)
                 {
                     Console.WriteLine("Dame el valor de a");
