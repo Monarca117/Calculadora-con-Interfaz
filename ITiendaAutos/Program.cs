@@ -19,7 +19,7 @@ namespace ITiendaAutos
             //Creamos la tienda
             CTiendauto tienda = new CTiendauto();
 
-            //Recorremos cada uno de los elementos que la estructura expone
+            //Recorremos cada uno de los elementos que la estructura expone.
             foreach (CAuto miAuto in tienda)
             {
                 miAuto.CalcularTenencia(0.05);
